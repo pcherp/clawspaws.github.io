@@ -1,0 +1,315 @@
+body{
+    background-color:#FFE8CE;
+}
+
+.logo{
+    width: 320px;
+    display: block;
+    margin: auto;
+    margin-bottom: 40px;
+    filter: drop-shadow(0 0 2px rgba(255, 156, 215, 0.588));
+}
+
+.slider {
+    position: relative;
+   /* max-width: 800px;*/
+    margin: auto;
+    overflow: hidden;
+    width: 80%;
+    border-radius: 5%;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    /*width: auto;*/
+    
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+}
+
+.text {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    font-size: 24px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+    font-style: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navigation {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+
+button {
+    background: rgba(255, 255, 255, 0.7);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+button:hover {
+    background: rgba(255, 255, 255, 1);
+}
+
+.indicators {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.active {
+    background-color: #717171;
+}
+
+.weonmap{
+    position: relative;
+    background-color: #F1C7C7;
+    height: 152px;
+    width: auto;
+}
+
+.maptext{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 780px;
+    left: 32%;
+    font-size: 80px;
+    color: #ffffff;
+    font-family: 'Vollkorn SC';
+    filter: drop-shadow(0 0 2px rgba(150, 76, 120, 0.588));
+}
+
+.map{
+    filter: drop-shadow(0 0 2px rgba(255, 156, 215, 0.588));
+}
+
+.adres{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -6%;
+    left: 52%;
+    font-size: 50px;
+    color: #793434;
+    font-family:'Vollkorn SC';
+    filter: drop-shadow(0 0 2px rgba(150, 76, 120, 0.588));
+}
+
+.contact{
+    position: relative;
+    background-color: #F1C7C7;
+    height: 565px;
+    width: auto;
+}
+
+.contacttext{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 1400px;
+    left: 15%;
+    font-size: 70px;
+    color: #ffffff;
+    font-family: 'Vollkorn SC';
+    filter: drop-shadow(0 0 2px rgba(150, 76, 120, 0.588));
+}
+
+.phone{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 1560px;
+    left: 20%;
+    font-size: 40px;
+    color: #ffffff;
+    font-family: 'Vollkorn SC';
+    filter: drop-shadow(0 0 2px rgba(150, 76, 120, 0.588));
+}
+
+.mail{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 1560px;
+    left: 55%;
+    font-size: 40px;
+    color: #ffffff;
+    font-family: 'Vollkorn SC';
+    filter: drop-shadow(0 0 2px rgba(150, 76, 120, 0.588));
+}
+
+.grafic{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 1740px;
+    left: 20%;
+    font-size: 40px;
+    color: #ffffff;
+    font-family: 'Vollkorn SC';
+    filter: drop-shadow(0 0 2px rgba(150, 76, 120, 0.588));
+}
+
+.telega{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 1770px;
+    left: 55%;
+    filter: drop-shadow(0 0 2px rgba(150, 76, 120, 0.588));
+    transition: transform 0.8s ease;
+}
+
+.telega:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.vk{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 1770px;
+    left: 63.5%;
+    filter: drop-shadow(0 0 2px rgba(150, 76, 120, 0.588));
+    transition: transform 0.8s ease;
+}
+
+.vk:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.wa{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 1770px;
+    left: 72%;
+    filter: drop-shadow(0 0 2px rgba(150, 76, 120, 0.588));
+    transition: transform 0.8s ease;
+}
+
+.wa:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.logoend{
+    position: relative;
+    background-color: #FFB6B1;
+    height: 270px;
+    width: auto;
+}
+
+.logopicend{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 415px;
+    height: 115px;
+    top: 2050px;
+    left: 36%;
+    margin: 10px auto 20px;
+    filter: drop-shadow(0 0 10px rgb(255, 255, 255));
+}
+
+.prava{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 2180px;
+    left:37%;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: 'Vollkorn SC';
+    filter: drop-shadow(0 0 2px rgba(150, 76, 120, 0.588));
+}
+
+.sogl{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top:  2205px;
+    left:41%;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: 'Vollkorn SC';
+    filter: drop-shadow(0 0 2px rgba(150, 76, 120, 0.588));
+}
+
+.docs{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top:  2230px;
+    left:46%;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: 'Vollkorn SC';
+    filter: drop-shadow(0 0 2px rgba(150, 76, 120, 0.588));
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 40px;
+    height: 40px;
+    background-color: #c98681;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.back-to-top:hover {
+    background-color: #F1C7C7;
+}
