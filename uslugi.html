@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Claws&Paws</title>
+    <link rel="stylesheet" type="text/css" href="uslugistyle.css">
+</head>
+<body>
+    <header>
+        <img class="logo" src="img/logo_transparent.png" alt='Баннер' , width="100%">
+    </header>
+
+    <div class="slider">
+        <div class="slides">
+            <div class="slide active">
+                <img src="img/стрижка.png" alt="Слайд 1">
+            </div>
+            <div class="slide">
+                <img src="img/гигиена.png" alt="Слайд 2">
+            </div>
+            <div class="slide">
+                <img src="img/спа.png" alt="Слайд 3">
+            </div>
+            <div class="slide">
+                <img src="img/вакцинация.png" alt="Слайд 4">
+            </div>
+            <div class="slide">
+                <img src="img/окр.png" alt="Слайд 5">
+            </div>
+            <div class="slide">
+                <img src="img/озонирование.png" alt="Слайд 6">
+            </div>
+        </div>
+
+        <div class="navigation">
+            <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+            <button class="next" onclick="changeSlide(1)">&#10095;</button>
+        </div>
+
+        <div class="indicators">
+            <span class="dot active" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </div>
+
+    <div class="weonmapcompl">
+        <div class="weonmap"></div>
+        <p class="maptext" id="mapp">МЫ НА КАРТЕ</p>
+    </div>
+
+    <div class="map">
+        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A954355a39aa95ace4f9270c47d5ca9adaf5984849123167d8fed9b82eb523c4c&amp;source=constructor" width="765" height="468" frameborder="0"></iframe>
+        <p class="adres">АДРЕСА</br><br>📍Москва<br>Новокузнецкая улица, 44/2</br><br>📍Архангельск<br>улица Карла
+            Либкнехта, 1</br></p>
+    </div>
+
+    <div class="contactcompl">
+        <div class="contact"></div>
+        <p class="contacttext" id="contact">КОНТАКТЫ И СОЦИАЛЬНЫЕ СЕТИ</p>
+        <p class="phone">ТЕЛЕФОН<br>+71234567890</br></p>
+        <p class="mail">ПОЧТА<br>hello@clawspaws.com</br></p>
+        <p class="grafic">ГРАФИК РАБОТЫ<br>10:00-21:00 - ежедневно</br></p>
+        <img class="telega" src="img/Telegram logo.png">
+        <img class="vk" src="img/vk logo.png">
+        <img class="wa" src="img/WhatsApp logo.png">
+    </div>
+
+    <div class="logolog">
+        <div class="logoend"></div>
+        <img class="logopicend" src="img/logo_transparent.png" alt="Нижний логотип">
+        <a href="#" class="prava">© Все права защищены. Claws&Paws. 2024г.</a>
+        <a href="#" class="sogl">Пользовательское соглашение</a>
+        <a href="#" class="docs">Документы</a>
+    </div>
+
+    <button class="back-to-top" id="backToTopBtn">↑</button>
+
+    <script src="uslugi.js"></script>
+
+</body>
+
+</html>
